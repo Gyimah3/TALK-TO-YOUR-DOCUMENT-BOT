@@ -40,7 +40,7 @@ def process_document(text):
 
 
 
-API_KEY =st.secrets("GOOGLE_API_KEY")
+API_KEY =st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=API_KEY)
 
 def generate_embeddings(text, task_type="retrieval_document"):
