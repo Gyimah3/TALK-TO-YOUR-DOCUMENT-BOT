@@ -1,0 +1,8 @@
+flask
+numpy>=1.9.2
+scipy>=0.15.1
+google-generativeai
+python-dotenv
+streamlit==1.29.0
+PyPDF2
+python-docx
